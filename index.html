@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>SilkRoad</title>
+</head>
+<body>
+    <div id="loader">
+        <img id="loadbg" src="/loaderimg.jpg" alt="">
+        <img id="loadfront" src="/lady1.png" alt="">
+        <img id="ring" src="/ring1.png" alt="">
+        <h1>Loading </h1>
+        <h1 id="time">00</h1>
+        <h1 id="time2">%...</h1>
+        <svg id="svganime" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 18" width="130%" height="100%" style="display: block; margin: 0; padding: 0;" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <style type="text/css">
+                line, polyline { fill: none; stroke: #fff; stroke-width: 2.5; }
+            </style>
+          
+            <!-- Define the pattern -->
+            <defs>
+                <g id="greekPattern">
+                    <line x1="0" y1="1.25" x2="18" y2="1.25" id="border" />
+                    <use xlink:href="#border" transform="translate(0 15.5)" />
+                    <polyline points="1.25,16.7 1.25,5.7 9.9,5.7 9.9,9.4" id="wave" />
+                    <use xlink:href="#wave" transform="rotate(180 7.75 9)" />
+                </g>
+            </defs>
+        
+            <!-- Repeat the pattern 30 times -->
+            <g id="patternGroup">
+                <use xlink:href="#greekPattern" x="0" y="0" />
+                <use xlink:href="#greekPattern" x="18" y="0" />
+                <use xlink:href="#greekPattern" x="36" y="0" />
+                <use xlink:href="#greekPattern" x="54" y="0" />
+                <use xlink:href="#greekPattern" x="72" y="0" />
+                <use xlink:href="#greekPattern" x="90" y="0" />
+                <use xlink:href="#greekPattern" x="108" y="0" />
+                <use xlink:href="#greekPattern" x="126" y="0" />
+                <use xlink:href="#greekPattern" x="144" y="0" />
+                <use xlink:href="#greekPattern" x="162" y="0" />
+                <use xlink:href="#greekPattern" x="180" y="0" />
+                <use xlink:href="#greekPattern" x="198" y="0" />
+                <use xlink:href="#greekPattern" x="216" y="0" />
+                <use xlink:href="#greekPattern" x="234" y="0" />
+                <use xlink:href="#greekPattern" x="252" y="0" />
+                <use xlink:href="#greekPattern" x="270" y="0" />
+                <use xlink:href="#greekPattern" x="288" y="0" />
+                <use xlink:href="#greekPattern" x="306" y="0" />
+                <use xlink:href="#greekPattern" x="324" y="0" />
+                <use xlink:href="#greekPattern" x="342" y="0" />
+                <use xlink:href="#greekPattern" x="360" y="0" />
+                <use xlink:href="#greekPattern" x="378" y="0" />
+                <use xlink:href="#greekPattern" x="396" y="0" />
+                <use xlink:href="#greekPattern" x="414" y="0" />
+                <use xlink:href="#greekPattern" x="432" y="0" />
+                <use xlink:href="#greekPattern" x="450" y="0" />
+                <use xlink:href="#greekPattern" x="468" y="0" />
+                <use xlink:href="#greekPattern" x="486" y="0" />
+                <use xlink:href="#greekPattern" x="504" y="0" />
+                <use xlink:href="#greekPattern" x="522" y="0" />
+            </g>
+        
+            <!-- Animate the pattern to move horizontally -->
+            <animateTransform attributeName="transform" type="translate" from="0,0" to="-540,0" dur="5s" repeatCount="indefinite" />
+        </svg>
+        
+        
+        
+    </div>
+    <div id="main">
+        <div id="cursor"></div>
+        <div id="page1">
+            <div id="blob1">
+                <img src="/SilkRoad-svg2.png" alt="">
+            </div>
+            <div id="blob2">
+                <img src="/SilkRoad-svg.png" alt="">
+            </div>
+            <div id="fence">
+                <img src="/fence.png" alt="">
+            </div>
+            <div id="page1-cont">
+                <div id="nav">
+                    <div id="logo">
+                        <h1>SilkRoad</h1>
+                    </div>
+                    <div id="wel">
+                        <h2>welcome to digital agency SilkRoad</h2>
+                    </div>
+                </div>
+                <div id="mid-1">
+                    <div id="mid-1-img">
+                        <img src="/lady1.png" alt="">
+                        <div id="circle">
+                            <div id="rotate">
+                                <h2>SILKROAD SILKROAD</h2> 
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div id="mid-1-1">
+                        <div class="gf" id="mid-1-1-top">
+                            <h3>about us <i class="ri-arrow-right-up-line"></i></h3>
+                        </div>
+                        <div id="mid-1-1-bottom">
+                            <h3>Our history</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum alias recusandae sapiente, inventore ullam mollitia sed deleniti fugit eligendi quisquam est repellat adipisci distinctio laudantium cumque illum quidem dolor labore ut omnis, tempora ab, unde maxime! Cum tempore dolorem est modi fugit maiores ipsam eveniet, quas, ratione iure sit quibusdam..</p>
+                        </div>
+                    </div>
+                    <div id="mid-1-2">
+                        <div class="gf" id="mid-1-2-top">
+                            <h3>services <i class="ri-arrow-right-up-line"></i></h3>
+                        </div>
+                        <div id="mid-1-2-bottom">
+                           <img src="/hand.png" alt="">
+                        </div>
+                    </div>
+                    <div id="mid-1-3">
+                        <div  class="gf" id="mid-1-3-top">
+
+                            <h3>contacts <i class="ri-arrow-right-up-line"></i></h3>
+                        </div>
+                        <div id="mid-1-3-bottom">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum alias recusandae sapiente, inventore ullam mollitia sed deleniti fugit eligendi quisquam est repellat adipisci distinctio laudantium cumque illum quidem dolor labore ut omnis, tempora ab, unde maxime! Cum tempore dolorem est modi fugit maiores ipsam eveniet, quas, ratione iure sit quibusdam..</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="page1_bottom">
+                    <div id="pg1_b_1">
+                        <h3>Nowadays</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus id labore nulla neque, aperiam sunt voluptatibus sequi provident ad tempore quasi. Ipsa numquam dolorum, expedita libero minima consectetur error dicta itaque aliquam praesentium ea repellat, iure quasi saepe. Reiciendis, ipsum.</p>
+                    </div>
+                    <div id="pg1_b_2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus id labore nulla neque, aperiam sunt voluptatibus sequi provident ad tempore quasi. Ipsa numquam dolorum, expedita libero minima consectetur error dicta itaque aliquam praesentium ea repellat, iure.</p>
+                    </div>
+                    <div id="pg1_b_3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus id labore nulla neque, aperiam sunt voluptatibus sequi provident ad tempore quasi. Ipsa numquam dolorum, expedita libero minima consectetur error dicta itaque aliquam praesentium ea repellat, iure.</p>
+                    </div>
+                    <div id="pg1_b_4"></div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="page2">
+            <div id="hor1"><h1 id="head1">SilkRoad SilkRoad SilkRoad SilkRoad SilkRoad SilkRoad</h1></div>
+            <div id="hor2"><h1>Services Services Services Services Services Services</h1></div>
+            <div id="hor3"><h1>Automation Automation Automation Automation Automation Automation</h1></div>
+        </div>
+        <div id="page3">
+            <div id="cursor2"></div>
+            <div id="blob3">
+                <img src="/SilkRoad-svg3.png" alt="">
+            </div>
+            <div id="pg3_top">
+                <div id="pg3_t1">
+                    <div class="pg3_text">
+                        <h1 class="gf2" >Consultancy</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas accusamus dicta earum culpa nisi consequuntur saepe pariatur a odio enim maxime, eveniet quae! Libero vero consequatur veritatis reiciendis ratione esse ipsa enim magni quaerat? Harum excepturi iure ratione pariatur?</p>
+                    </div>
+                    <div class="pg3_line">
+                        <div class="line"></div>
+                        <h3><i class="ri-arrow-right-line"></i> Learn More</h3>
+                    </div>
+                    
+                    <div class="pg3_btn">
+                        <span></span>
+                        <h2>Success cases</h2>
+                    </div>
+                </div>
+                <div id="pg3_t2">
+                    <img src="/final.png" alt="">
+                    <!-- <div id="eye"></div> -->
+                </div>
+                <div id="pg3_t3">
+                    <div class="pg3_text">
+                        <h1 class="gf2" >Automation</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas accusamus dicta earum culpa nisi consequuntur saepe pariatur a odio enim maxime, eveniet quae! Libero vero consequatur veritatis reiciendis ratione esse ipsa enim magni quaerat? Harum excepturi iure ratione pariatur?</p>
+                    </div>
+                    <div class="pg3_line">
+                        <div class="line"></div>
+                        <h3><i class="ri-arrow-right-line"></i> Learn More</h3>
+                    </div>
+                    <div class="pg3_btn">
+                        <span></span>
+                        <h2>Success cases</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="pg3_bottom">
+                <div id="pg3_b1">
+                    <div id="pg3_text_b1" class="pg3_text">
+                        <h1 class="gf2" >Automation&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="ri-arrow-right-up-line"></i></h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut facere amet quis sequi eveniet minima repudiandae, magnam porro veritatis similique!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas accusamus dicta earum culpa nisi consequuntur saepe pariatur a odio enim maxime, eveniet quae! Libero vero consequatur veritatis reiciendis ratione esse ipsa enim magni quaerat? Harum excepturi iure ratione pariatur?</p>
+                        <p>View our Success case on <b>Instagram.</b></p>
+                    </div>
+                </div>
+                <div id="pg3_b2">
+                    <div id="pg3_text_b2" class="pg3_text">
+                        <h1 class="gf2" >Agency</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro soluta, aut exercitationem dolore tempora quam aliquid officia ullam, earum fugiat possimus mollitia ex. Beatae vel ab eveniet doloremque nulla neque reprehenderit, a perspiciatis incidunt, velit porro omnis non animi iusto voluptatum cum minima vero, aspernatur expedita earum. Sapiente dolore vero, deleniti perspiciatis voluptatum doloribus perferendis.</p>
+                    </div>
+                    <div class="pg3_line">
+                        <div class="line"></div>
+                        <h3><i class="ri-arrow-right-line"></i> Learn More</h3>
+                    </div>
+                    
+                </div>
+                <div id="pg3_b3">
+                    <div id="pg3_text_b3" class="pg3_text">
+                        <h1 class="gf2" >Automation &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="ri-arrow-right-up-line"></i></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam at maiores accusamus iure sint eius vitae voluptates beatae labore. Voluptate, vel?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas accusamus dicta earum culpa nisi consequuntur saepe pariatur a odio enim maxime, eveniet quae! Libero vero consequatur veritatis reiciendis ratione esse ipsa enim magni quaerat? Harum excepturi iure ratione pariatur?</p>
+                        <p>View our Success case on <b>Instagram.</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page4">
+            <div id="pg4hor1"><h1>SilkRoad SilkRoad SilkRoad SilkRoad SilkRoad SilkRoad</h1></div>
+            <div id="pg4hor2"><h1>Contacts Contacts Contacts Contacts Contacts </h1></div>
+            <div id="pg4hor3"><h1>Socials Socials Socials Socials Socials Socials</h1></div>
+        </div>
+        <div id="page5">
+            <div id="pg5_1">
+                <div id="pg5_head1">
+                    <h1>We Know</h1>
+                    <p>The best ideas come unexpectedly. That's why our sales department will take up your enquiry at any time.</p>
+                </div>
+                <div id="pg5_image">
+                    <div id="gola"></div>
+                    <div id="frame">
+                        <img src="/1.png" />
+                        <img src="/2.png" />
+                    </div>
+                </div>
+            </div>
+            <div id="pg5_2">
+                <div id="pg5_form">
+                    <div class="pg5_head2">
+                        <h1>Let's Talk</h1>
+                    </div>
+                    <div id="form_pg5">
+                        <div id="pg5-top">
+                            <div class="pg5-text">
+                                <h5>Name</h5>
+                                <input type="text" id="name-pg5" name="name" placeholder="Your Name">
+                            </div>
+                            <div class="pg5-text">
+                                <h5>Email</h5>
+                                <input type="email" name="email" id="email"placeholder="yourmail@email.com">
+                            </div>
+                        </div>
+                        <div id="pg5-mid">
+                            <div id="mid-text" class="pg5-text">
+                                <h5>Subject</h5>
+                                <textarea name="" id="area"></textarea>
+                            </div>
+                        </div>
+                        <div id="pg5-bottom">
+                            <button type="submit">Submit <i class="ri-arrow-right-up-line"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="pg5_social">
+                    <div class="pg5_head2">
+                        <h1>Follow Us</h1>
+                    </div>
+                    <div id="logos">
+                        <div class="logo_comb"><h1><i class="ri-telegram-2-fill"></i></h1></div>
+                        <div class="logo_comb"><h1><i class="ri-facebook-circle-fill"></i></h1></div>
+                        <div class="logo_comb"><h1><i class="ri-instagram-fill"></i></h1></div>
+                        <div class="logo_comb"><h1><i class="ri-reddit-fill"></i></h1></div>
+                        <div class="logo_comb"><h1><i class="ri-youtube-fill"></i></h1></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page6">
+            <div id="blob4">
+                <img src="/SilkRoad-svg2.png" alt="">
+            </div>
+            <div id="pg6-top">
+                <h1>SilkRoad</h1>
+            </div>
+            <div id="pg6-mid">
+                <div class="links">
+                    <h2>about us <i class="ri-arrow-right-up-line"></i></h2>
+                    <div class="pg6-line"></div>
+                    <h5>Our history</h5>
+                    <h5>Team</h5>
+                    <h5>Cases</h5>
+                </div>
+                <div class="links">
+                    <h2>services <i class="ri-arrow-right-up-line"></i></h2>
+                    <div class="pg6-line"></div>
+                    <h5>Consultancy</h5>
+                    <h5>Automation</h5>
+                    <h5>Agency</h5>
+                </div>
+                <div class="links">
+                    <h2>contacts <i class="ri-arrow-right-up-line"></i></h2>
+                    <div class="pg6-line"></div>
+                    <h5>contact@silkroad.com</h5>
+                    <h5>ads@silkroad.com</h5>
+                    <h5>+91 99999-99999</h5>
+                </div>
+            </div>
+            <div id="pg6-bottom">
+                <h5>Copyright © 2024 Rahul Jha. All rights reserved. Privacy Policy and Conditions of Use</h5>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+        <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
